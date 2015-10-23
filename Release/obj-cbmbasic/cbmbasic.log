@@ -1,0 +1,30 @@
+﻿Build started 10/23/2015 2:33:13 PM.
+     1>Project "D:\gitrepos\cbmbasic\cbmbasic.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\VisualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\obj-cbmbasic\\" /Fd"Release\obj-cbmbasic\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt cbmbasic.c console.c plugin.c readdir.c runtime.c
+         cbmbasic.c
+     1>cbmbasic.c(6385): warning C4116: unnamed type definition in parentheses
+     1>cbmbasic.c(6386): warning C4116: unnamed type definition in parentheses
+     1>cbmbasic.c(6410): warning C4116: unnamed type definition in parentheses
+         console.c
+         plugin.c
+         readdir.c
+         runtime.c
+     1>runtime.c(582): warning C4267: '+=': conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>runtime.c(620): warning C4267: '+=': conversion from 'size_t' to 'unsigned short', possible loss of data
+     1>runtime.c(671): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+       Link:
+         D:\VisualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gitrepos\cbmbasic\Release\cbmbasic.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\gitrepos\cbmbasic\Release\cbmbasic.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gitrepos\cbmbasic\Release\cbmbasic.lib" /MACHINE:X86 /SAFESEH "Release\obj-cbmbasic\cbmbasic.obj"
+         "Release\obj-cbmbasic\console.obj"
+         "Release\obj-cbmbasic\plugin.obj"
+         "Release\obj-cbmbasic\readdir.obj"
+         "Release\obj-cbmbasic\runtime.obj"
+         Generating code
+         All 63 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         cbmbasic.vcxproj -> D:\gitrepos\cbmbasic\Release\cbmbasic.exe
+     1>Done Building Project "D:\gitrepos\cbmbasic\cbmbasic.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.78
